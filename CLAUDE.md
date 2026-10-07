@@ -41,9 +41,20 @@ Răspunde-i lui Ionuț în română, scurt și direct.
 
 ## Tipografie și culori
 
-- Culori aprobate: **roșu (nuanțele șepcii) + alb cald**. Paletă: ink #0B0807, blood #3B0A08,
-  deep #7E120E, red #D9261C, signal #FF3A2A, ember #FF8A6A, blush #F4D9CF.
+- Sistemul de culori al brandului (aprobat, pentru toate video-urile):
+  - **negru cald** #0B0807 (ink) / #170E0C — fundalul, lumea;
+  - **roșu** (șapca): signal #FF3A2A, red #D9261C, deep #7E120E, blood #3B0A08, ember #FF8A6A —
+    cuvintele-cheie, linia/scânteia (motivul recurent);
+  - **alb cald** #F4D9CF (blush) — textul de citit;
+  - **chihlimbar-tungsten #FFB547** (din becul Edison și neonul din studioul lui) — DOAR lumină:
+    cuvântul aprins în karaoke, liniuța de sub el, lumina care pulsează în spatele textului, scânteile.
+    Niciodată suprafețe mari.
+- Fără albastru/mov/neon rece.
 - Text: tracking strâns, spațiere mică între cuvinte (fără litere „rărite”), kerning corect.
 - Animațiile de text în stilul referinței pdoom (github.com/mexicat/pdoom-video): apar pe cuvânt,
   integrate în imagine (pe curbe, tastate, ștampilate, slide din lateral), easing puternic + hold.
-- Fontul: Ionuț alege dintr-o planșă de fonturi premium (nu Archivo Expanded).
+- Tipografia ca la pdoom + Barsol Media: fonturi MIXATE pe cuvânt (majuscule late și grele, condensat
+  foarte gros pentru accent, serif italic pentru cuvinte emoționale, mono tastat cu cursor ca „subtitlu de
+  mașină”), mărimi diferite pe cuvânt. Karaoke: cuvântul se aprinde când e spus + liniuță care alunecă sub
+  el; literele sar în val când se colorează. Text pe traseu (literele rotite după curbă), text pe panouri
+  în lume văzute din unghiuri care se schimbă. NU o planșă de un singur font „curat” (arată generic).
