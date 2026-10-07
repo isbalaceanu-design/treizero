@@ -25,3 +25,25 @@ Răspunde-i lui Ionuț în română, scurt și direct.
 - Mini-Ionuț decupat se plimbă constant prin lume; din clipurile generate se folosesc doar bucăți.
 - Motion graphics curat, stil Apple: tipografie mare, puțină, integrată pe suprafețele din lume.
 - Ionuț real rămâne jos (layout Kallaway, capul ieșit peste bandă).
+
+## Layout Kallaway — banda cu Ionuț (regulă fixă)
+
+- Studioul lui NU e pe toată lățimea: e un **card cu colțuri rotunjite**, cu spațiu stânga/dreapta
+  (și puțin jos), prin care se vede lumea de deasupra. Capul (și mâinile) lui ies din card (decupat
+  din filmarea 4K), restul studioului rămâne în card. Tehnica standard din social media.
+
+## Ritm și lizibilitate (conținut educațional)
+
+- Mișcare continuă, DAR nu în viteză mare: privitorul trebuie să aibă timp să vadă și să înțeleagă
+  ce e pe ecran. Mai puține whip-uri, mai multe momente ținute (hold) după fiecare reveal.
+- Tot ce apare e relevant pentru ce spune Ionuț și îl duce pe privitor într-o „lume” care explică ideea.
+- Unghiuri de cameră puternice, compoziții estetice.
+
+## Tipografie și culori
+
+- Culori aprobate: **roșu (nuanțele șepcii) + alb cald**. Paletă: ink #0B0807, blood #3B0A08,
+  deep #7E120E, red #D9261C, signal #FF3A2A, ember #FF8A6A, blush #F4D9CF.
+- Text: tracking strâns, spațiere mică între cuvinte (fără litere „rărite”), kerning corect.
+- Animațiile de text în stilul referinței pdoom (github.com/mexicat/pdoom-video): apar pe cuvânt,
+  integrate în imagine (pe curbe, tastate, ștampilate, slide din lateral), easing puternic + hold.
+- Fontul: Ionuț alege dintr-o planșă de fonturi premium (nu Archivo Expanded).
