@@ -58,3 +58,35 @@ Răspunde-i lui Ionuț în română, scurt și direct.
   mașină”), mărimi diferite pe cuvânt. Karaoke: cuvântul se aprinde când e spus + liniuță care alunecă sub
   el; literele sar în val când se colorează. Text pe traseu (literele rotite după curbă), text pe panouri
   în lume văzute din unghiuri care se schimbă. NU o planșă de un singur font „curat” (arată generic).
+
+## Fluxul de lucru pentru fiecare video (regulă fixă, aprobată de Ionuț)
+
+Inspirat din „The 3 Levels of AI Motion Graphics” (RoboNuggets): storyboard → directing, cu feedback
+fixat pe cadru. Nu construi videoul întreg înainte ca Ionuț să aprobe direcția.
+
+1. **Script + timpi.** Transcriere cu timpi pe cuvânt (faster-whisper / `npx hyperframes transcribe`).
+2. **Storyboard înainte de animație.** Cadre statice din fiecare scenă, în look-ul FINAL (fonturi,
+   culori, post-procesare), randate din aceeași scenă (capturi HyperFrames la secunde exacte), puse în
+   ordine pe o pagină privată (Artifact claude.ai), fiecare cu timpul de start și o descriere scurtă a
+   ce se întâmplă. Apoi STOP și aștepți comentariile.
+   - Pagina permite click pe cadru → comentariu fixat cu scena, secunda și poziția
+     (ex. `Shot 07, 5.90s, pin la 52% din lățime, 46% din înălțime: prea mult text`) + buton „Copy all”.
+   - La comentarii: aplici FIECARE comentariu și NU schimbi nimic altceva. Arăți un storyboard nou sau,
+     la cerere, construiești videoul.
+3. **Generări Higgsfield doar după storyboard aprobat** (prompt + cost, apoi OK).
+4. **Directing pe videoul real.** Pagină de review: player 1x/2x, timeline, click pe imagine → comentariu
+   fixat pe secundă și loc, comentarii pe sunet, tăieturi ajustabile prin tragere, „Copy all”.
+   Aplici doar ce e comentat, actualizezi pagina de review.
+5. **Randarea finală (1080×1920 MP4) doar când Ionuț spune „gata”.** Nu randa versiuni întregi
+   ne-cerute (în cloud o randare durează 18–60 min).
+6. **Biblioteca de elemente.** Ce iese bun se salvează pentru reutilizare (cu notă despre cum se
+   refolosește): fața care iese prin ecran, curba incandescentă cu scânteia, monedele 3D,
+   post-procesarea HDR (bloom/halation/grain/CA + motion blur din sub-cadre), sistemul de culori.
+
+## Unelte
+
+- **HyperFrames** rămâne scheletul: sincronizare voce + filmare, randare MP4, capturi la secunde exacte
+  (pentru storyboard), remove-background, transcriere. Look-ul premium vine din motorul WebGL propriu
+  (Three.js) rulat în compoziție, nu din blocurile HyperFrames.
+- Referințe de stil: github.com/mexicat/pdoom-video (MIT, docs/TREATMENT.md + docs/ENGINE.md) și
+  videoul Barsol Media (text pe traseu, fonturi mixate, karaoke).
